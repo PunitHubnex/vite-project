@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Outlet, Link } from 'react-router-dom';
 import Home from './component/Home';
 import About from './component/About';
 import Contact from './component/Contact';
@@ -26,9 +26,9 @@ function Layout() {
           {/* Loader End */}
           {/* Bottom To Top Start */}
           <div className="cv_top_icon">
-            <a id="button">
+           <Link id="button">
               <img src="../../images/gototop.svg" className="img-fluid" />
-            </a>
+           </Link>
           </div>
           {/* Bottom To Top End */}
           {/* Header Section Start */}
@@ -38,9 +38,9 @@ function Layout() {
                 <div className="col-12">
                   <div className="cv_navbar">
                     <div className="cv_logo">
-                      <a href="/">
+                     <Link href="/">
                         <img src="../../images/logo.png" className="img-fluid" />
-                      </a>
+                     </Link>
                     </div>
                     <button onClick={toggleMenu} className="cv_toggle_btn">
                       <svg className={`ham hamRotate ham7 ${menuOpen ? 'active' : ''}`} viewBox="0 0 100 100">
@@ -68,45 +68,45 @@ function Layout() {
                   <div className="cv_menus_wrapper">
                     <ul className="cv_menus">
                       <li>
-                        <a href="/">Home</a>
+                       <Link to="/" onClick={toggleMenu}  >Home</Link>
                       </li>
                       <li>
-                        <a href="/about">About</a>
+                       <Link to="/about" onClick={toggleMenu}>About</Link>
                       </li>
                       <li>
-                        <a className="active" href="/portfolio">
+                       <Link className="active" to="/portfolio" onClick={toggleMenu}>
                           My Work
-                        </a>
+                       </Link>
                       </li>
                       <li>
-                        <a href="/strength">Strength</a>
+                       <Link to="/strength" onClick={toggleMenu}  >Strength</Link>
                       </li>
                       <li>
-                        <a href="/contact">Contact</a>
+                       <Link to="/contact" onClick={toggleMenu} >Contact</Link>
                       </li>
                     </ul>
                     <div className="cv_header_social">
                       <h4>Follow Me</h4>
                       <ul>
                         <li>
-                          <a href="javascript:void(0);">
+                         <Link to="javascript:void(0);">
                             <img src="../../images/fb.svg" />
-                          </a>
+                         </Link>
                         </li>
                         <li>
-                          <a href="javascript:void(0);">
+                         <Link to="javascript:void(0);">
                             <img src="../../images/in.svg" />
-                          </a>
+                         </Link>
                         </li>
                         <li>
-                          <a href="javascript:void(0);">
+                         <Link to="javascript:void(0);">
                             <img src="../../images/tw.svg" />
-                          </a>
+                         </Link>
                         </li>
                         <li>
-                          <a href="javascript:void(0);">
+                         <Link to="javascript:void(0);">
                             <img src="../../images/pi.svg" />
-                          </a>
+                         </Link>
                         </li>
                       </ul>
                     </div>
