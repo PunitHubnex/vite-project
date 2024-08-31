@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
                       <h5>UI/UX Designer</h5>
                       <h1>Hello! <span><img src="../../images/hand.svg" className="img-fluid" /></span> I Am</h1>
                       <h1 className="cv_profile_name" />
-                      <a href="/contact" className="cv_btn">Hire Me</a>
+                      <Link to="/contact" className="cv_btn">Hire Me</Link>
                     </div>
                     <div className="cv_banner_box">
                       <h4>Freelance  &amp; Mobile UI/UX Designer</h4>

@@ -382,13 +382,7 @@ const Strenth = () => {
             </div>
           </div>
         </div>
-        <div className="col-12">
-          <div className="cv_bottom_btn">
-            <a href="javascript:void(0)" className="cv_btn">
-              View More
-            </a>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>

@@ -38,7 +38,7 @@ function Layout() {
                 <div className="col-12">
                   <div className="cv_navbar">
                     <div className="cv_logo">
-                     <Link href="/">
+                     <Link to="/">
                         <img src="../../images/logo.png" className="img-fluid" />
                      </Link>
                     </div>
