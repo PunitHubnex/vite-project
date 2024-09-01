@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
               <img src="../../images/about-img.webp" className="img-fluid" />
               <div className="cv_about_experience">
                 <div className="cv_about_exp">
-                  <h2>12</h2>
+                  <h2>04</h2>
                   <span>
                     <p>YEARS</p>
                     <p>OF EXPERIENCE</p>
@@ -22,10 +23,10 @@ const About = () => {
                 </div>
                 <div className="cv_about_rating">
                   <span>
-                    <img src="../../images/rating.svg" />
-                    <h6>4.9</h6>
+                    {/* <img src="../../images/rating.svg" /> */}
+                    <h6>Worked with</h6>
                   </span>
-                  <p>7000+ Clients Reviews</p>
+                  <p>200+ Clients </p>
                 </div>
               </div>
             </div>
@@ -34,27 +35,25 @@ const About = () => {
               <div className="cv_about_box">
                 <h3>Who I’m</h3>
                 <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet. Amet minim
-                  mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                I’m a passionate 20-year-old college dropout from Jaipur who turned my love 
+for storytelling into a dynamic career. From behind the camera to the editing suite, I bring 
+stories to life through stunning visuals and sharp editing.
                 </p>
                 <p>
-                  Embarrassing hidden in the middle of text. All the Lorem Ipsum
-                  generate on the are Internettend to repeat predefined chunks
-                  as necessary, making of this the first true generator on the
-                  Internet which don't look even you. Amet minim mollit non
-                  deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                  officia consequat duis enim velit mollit.
+                As a videographer, video editor, 
+and photographer, I capture moments that resonate. But my talents don’t stop there—I’m 
+also a skilled scriptwriter and social media manager, crafting content that engages and 
+excites. A automotive enthusiast at heart, I fuel my creativity with the same energy that 
+drives my passion for video creation. Let’s create something unforgettable together
                 </p>
               </div>
               <div className="cv_about_btn">
-                <a href="javascript:void(0);" className="cv_btn">
+                <Link to="javascript:void(0);" className="cv_btn">
                   Download Resume
-                </a>
-                <a href="javascript:void(0);" className="cv_btn">
+                </Link>
+                <Link to="/contact" className="cv_btn">
                   Hire Me
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -64,7 +63,7 @@ const About = () => {
   </div>
   {/* About Section End */}
   {/* Education Section Start */}
-  <section className="cv_education_wrapper">
+  {/* <section className="cv_education_wrapper">
     <div className="cv_container container-fluid">
       <div className="row align-items-center">
         <div className="col-xl-4">
@@ -143,7 +142,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
   {/* Education Section End */}
   {/* Experience Section Start */}
   <section className="cv_experience_wrapper">
@@ -154,41 +153,32 @@ const About = () => {
             <h2>01</h2>
             <div className="cv_exp_com">
               <span>
-                <h3>Junior UI/UX Designer</h3>
-                <h4>- Amazon</h4>
+                <h3>Junior Video Editor</h3>
+                <h4>- Futuresys</h4>
               </span>
-              <h5>(2014-2015)</h5>
+              <h5>(2021-2022)</h5>
             </div>
           </div>
           <div className="cv_exp_box">
             <h2>02</h2>
             <div className="cv_exp_com">
               <span>
-                <h3>Junior UI/UX Designer</h3>
-                <h4>- Amazon</h4>
+                <h3>senior Video Grafer and editor</h3>
+                <h4>- Xplo</h4>
               </span>
-              <h5>(2014-2015)</h5>
+              <h5>(2022-2024)</h5>
             </div>
           </div>
-          <div className="cv_exp_box">
-            <h2>03</h2>
-            <div className="cv_exp_com">
-              <span>
-                <h3>Junior UI/UX Designer</h3>
-                <h4>- Amazon</h4>
-              </span>
-              <h5>(2014-2015)</h5>
-            </div>
-          </div>
+         
         </div>
         <div className="col-xl-4">
           <div className="cv_exp_info">
             <div className="cv_exp_heading">
               <h2>My Experience</h2>
               <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+I have 4 years of experience. <br />
+( Certified by Adobe in after effects )
+ {/* Completed high school */}
               </p>
               <ul>
                 <li>

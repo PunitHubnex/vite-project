@@ -44,8 +44,8 @@ const Contact = () => {
             </div>
             <div className="cv_address_text">
               <h5>Phone</h5>
-              <a href="javascript:void(0);">+1-202-555-0125</a>
-              <a href="javascript:void(0);">01-202-555-0125</a>
+              <a href="tel:+918112289951">+91 81122 89951</a>
+  <a href="tel:+918112289951">+91 81122 89951</a>
             </div>
           </div>
         </div>
@@ -56,8 +56,8 @@ const Contact = () => {
             </div>
             <div className="cv_address_text">
               <h5>Email</h5>
-              <a href="javascript:void(0);">example@gmail.com</a>
-              <a href="javascript:void(0);">yourname@gmail.com</a>
+              <a href="mailto:St7807861@gmail.com">St7807861@gmail.com</a>
+      <a href="mailto:utkarsh7ven@gmail.com">utkarsh7ven@gmail.com</a>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Contact = () => {
   </section>
   {/* Address Section End */}
   {/* Form Section Start */}
-  <section className="cv_form_wrapper">
+  {/* <section className="cv_form_wrapper">
     <form className="cv_contact_form">
       <div className="cv_container container-fluid">
         <div className="row align-items-center">
@@ -130,7 +130,7 @@ const Contact = () => {
         </div>
       </div>
     </form>
-  </section>
+  </section> */}
 </div>
 
     </div>

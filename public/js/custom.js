@@ -32,15 +32,15 @@ Project: Resume html
 		--------------------------------------------------------------------------------------------------*/
 
 		// Typing Effect
-		tyipng: function () {
-			 window.ityped.init(document.querySelector('.cv_profile_name'),{
-                strings: ['Jacob Jones','Web Designer !','Freelancer !','Artist !'],
-                loop: true,
-                typeSpeed:  200,
-                backSpeed:  100,
-                showCursor: false,
-            })
-		},
+		// tyipng: function () {
+		// 	 window.ityped.init(document.querySelector('.cv_profile_name'),{
+        //         strings: ['Jacob Jones','Web Designer !','Freelancer !','Artist !'],
+        //         loop: true,
+        //         typeSpeed:  200,
+        //         backSpeed:  100,
+        //         showCursor: false,
+        //     })
+		// },
 		
 		// Bottom To Top
 		bottom_top: function () {

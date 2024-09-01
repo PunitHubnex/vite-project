@@ -18,11 +18,11 @@ function Layout() {
       <header>
         <>
           {/* Loader Start */}
-          <div className="loader">
+          {/* <div className="loader">
             <div className="spinner">
               <img src="../../images/loader.gif" alt="loader" className="img-fluid" />
             </div>
-          </div>
+          </div> */}
           {/* Loader End */}
           {/* Bottom To Top Start */}
           <div className="cv_top_icon">
@@ -94,8 +94,8 @@ function Layout() {
                          </Link>
                         </li>
                         <li>
-                         <Link to="javascript:void(0);">
-                            <img src="../../images/in.svg" />
+                         <Link to="https://www.instagram.com/damn.utkarsh/">
+                            <img src="../../insta.jpg" width={100} />
                          </Link>
                         </li>
                         <li>
