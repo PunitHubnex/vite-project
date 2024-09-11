@@ -1,0 +1,20 @@
+.reel-container {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr); /* 2 reels in a row */
+  }
+  
+  .reel {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Mobile view: 1 reel per row */
+  @media (max-width: 768px) {
+    .reel-container {
+      grid-template-columns: 1fr; /* 1 reel per row */
+    }
+  }
+  
