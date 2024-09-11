@@ -6,7 +6,7 @@ const ReelDisplay = ({ reels }) => {
     <div className="reel-container">
       {reels.map((reel, index) => (
         <div key={index} className="reel">
-          <video controls width="100%">
+          <video controls autoPlay muted loop playsInline width="100%">
             <source src={reel} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -17,3 +17,4 @@ const ReelDisplay = ({ reels }) => {
 };
 
 export default ReelDisplay;
+
