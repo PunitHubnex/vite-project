@@ -7,11 +7,11 @@ import { Pagination } from 'swiper/modules';
 const Portfolio = () => {
   const reels = [
     "../../1.mp4",
-    "../../1.mp4",
-    "../../1.mp4",
-    "../../1.mp4",
-    "../../1.mp4",
-    "../../1.mp4",
+    "../../2.mp4",
+    "../../3.mp4",
+    "../../4.mp4",
+    "../../5.mp4",
+    // "../../1.mp4",
    
   ];
 
